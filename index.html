@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastTag Enhanced System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <h2>FastTag Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div class="dashboard">
+            <h3>Welcome to your FastTag Dashboard</h3>
+            <div class="balance-info">
+                <h3>Account Balance: ₹<span id="balance">250</span></h3>
+                <p>Auto-Pay Status: <span id="auto-pay-status">Enabled</span></p>
+            </div>
+            <div class="actions">
+                <label for="recharge">Recharge Amount:</label>
+                <input type="number" id="recharge" placeholder="Enter amount">
+                <button onclick="recharge()">Recharge</button>
+                <label for="deduct">Deduct Amount (Toll):</label>
+                <input type="number" id="deduct" placeholder="Enter toll amount">
+                <button onclick="deduct()">Deduct</button>
+            </div>
+            <button onclick="toggleAutoPay()">Toggle Auto-Pay</button>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+    </div>
+</body>
+</html>
