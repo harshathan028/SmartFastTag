@@ -17,7 +17,7 @@ This project is an enhanced FastTag system designed to simplify toll payments an
        python3 app.py
    
 4. Access the app
-       Open your browser and go to http://localhost:5000
+       Open your browser and go to http://localhost:3000
 
 ◉ The database (users.db) stores user credentials. To manually add users:
 
