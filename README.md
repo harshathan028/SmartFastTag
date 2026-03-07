@@ -11,7 +11,7 @@ This project is an enhanced FastTag system designed to simplify toll payments an
        cd FastTagpro
 
 2. Install dependencies
-       pip install flask sqlite3
+       pip install flask sqlite32
 
 3. Run the app
        python3 app.py
