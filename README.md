@@ -14,7 +14,7 @@ This project is an enhanced FastTag system designed to simplify toll payments an
        pip install flask sqlite2
 
 3. Run the app
-       python3 app.pyy
+       python3 app.py
    
 4. Access the app
        Open your browser and go to http://localhost:3000
