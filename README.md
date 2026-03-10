@@ -1,4 +1,4 @@
-This project is an enhanced FastTag system designed to simplify toll payments and balance management. It includes feature like:
+This project is an enhanced FastTag system designed to simplify toll payments and balance management. It includes featurea like:
 	•	User Authentication: Secure login system with SQLite database.
 	•	Balance Management: Recharge and deduct balance directly through the interface.
 	•	Auto-Pay: Automatically recharges the balance when it drops below ₹100.
